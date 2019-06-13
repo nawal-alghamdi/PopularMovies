@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <Button
+        android:id="@+id/trailer_button"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginStart="@dimen/dimension_32dp"
+        android:layout_marginLeft="@dimen/dimension_32dp"
+        android:layout_marginTop="@dimen/dimension_32dp"
+        android:layout_marginEnd="@dimen/dimension_32dp"
+        android:layout_marginRight="@dimen/dimension_32dp"
+        android:layout_marginBottom="@dimen/dimension_32dp"
+        android:background="@android:color/background_light"
+        android:textColor="@color/colorAccent"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Trailer1" />
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/author_textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dimension_16dp"
+        android:layout_marginLeft="@dimen/dimension_16dp"
+        android:layout_marginTop="@dimen/dimension_16dp"
+        android:layout_marginEnd="@dimen/dimension_16dp"
+        android:layout_marginRight="@dimen/dimension_16dp"
+        android:layout_marginBottom="@dimen/dimension_16dp"
+        android:background="@color/lightGray"
+        android:textColor="@color/PrimaryText"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Khaled" />
+
+    <TextView
+        android:id="@+id/content_textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dimension_16dp"
+        android:layout_marginLeft="@dimen/dimension_16dp"
+        android:layout_marginEnd="@dimen/dimension_16dp"
+        android:layout_marginRight="@dimen/dimension_16dp"
+        android:paddingBottom="@dimen/dimension_16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/author_textView"
+        tools:text="I gave it 9/10" />
+</android.support.constraint.ConstraintLayout>

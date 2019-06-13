@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dimension_16dp">16dp</dimen>
+    <dimen name="dimension_24dp">24dp</dimen>
+    <dimen name="dimension_8dp">8dp</dimen>
+    <dimen name="poster_image_height">300dp</dimen>
+    <dimen name="floating_action_margin_top">272dp</dimen>
+    <dimen name="progress_bar_dimension">42dp</dimen>
+    <dimen name="dimension_32dp">32dp</dimen>
+</resources>
