@@ -1,5 +1,5 @@
 # PopularMovies
-This project is part of Android Developer Nanodegree by google, at Udacity.com   
+This project is part of Android Developer Nanodegree by google & Udacity.  
 To use this app, you must add your own api_key to strings.xml file. You can git your own key from <https://www.themoviedb.org>
 
 ## What the project uses
@@ -16,7 +16,7 @@ To use this app, you must add your own api_key to strings.xml file. You can git 
 <img src = "https://user-images.githubusercontent.com/37348227/59468863-db00fb00-8e3b-11e9-8460-43ffebc51a86.jpg" width = "200">
 
 
--Detail Actvity(Showing Trailers"pressing any trailer will open it on youtube", Reviews and in the last image the favorite button was pressed)
+-Detail Actvity(Showing Trailers"_pressing any trailer will open it on Youtube_", Reviews and in the last image the favorite button was pressed)
 
 <p float="left">
   <img src="https://user-images.githubusercontent.com/37348227/59469610-0258c780-8e3e-11e9-928a-ec01d731a998.jpg" width = "200" />
