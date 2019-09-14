@@ -74,7 +74,7 @@ public class Movie implements Parcelable {
     }
 
     public String buildMoviePosterUrl(String poster) {
-        String baseUrl = "http://image.tmdb.org/t/p/";
+        String baseUrl = "https://image.tmdb.org/t/p/";
         String size = "w185/";
         return baseUrl + size + poster;
     }
